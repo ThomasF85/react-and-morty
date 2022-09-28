@@ -66,11 +66,10 @@ If you working on an issue, pls move the issue from the todo tab in the project 
 - this `action` creates all issues, you have to do
 - under the `Issues` tab you should see now the number 8 (the image is just an example)
   ![board1](assets/issues.png)
-- Click on every Issue and add your project to it
-- go back to your `project` and click the `+ Add cards` in the ToDo column
-  ![board1](assets/issues2.png)
-  ![board1](assets/issues3.png)
-  ![board1](assets/issues4.png)
+- Click on every Issue and add your project to it and set the status to ToDo:
+  ![board1](assets/ram-issues.png)
+- Your board should now look like this:
+  ![board1](assets/ram-board-done.png)
 
 ### Workflow step 2
 
