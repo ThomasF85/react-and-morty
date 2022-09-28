@@ -50,14 +50,15 @@ If you working on an issue, pls move the issue from the todo tab in the project 
 
 - then clone the repo to your local machine
 
-- create a board back on Github (in the repo)
-- got to the `Projects` tabs
-  ![board1](assets/project_board1.png)
-- choose `Projects` (not Projects beta) and click `New project`
-  ![board1](assets/project_board2.png)
-- give the board a meaningful name, like `Development` and choose as a `Project template` -> `Basic kanban`
-  ![board1](assets/project_board3.png)
-- click then `Create project`
+- create a project on Github
+- got to the `Projects` tabs on GitHub and click `New project`
+  ![board1](assets/ram-projects.png)
+- choose `Board` as a template and click `Create`
+  ![board1](assets/ram-board.png)
+- give the project a meaningful name, like `React and Morty`
+  ![board1](assets/ram-rename-project.png)
+- go to your React and Morty repository and add the project
+  ![board1](assets/ram-add-project.png)
 - go now to the `Actions` tab
   ![board1](assets/action.png)
 - click `Create all issues for the project` and then `Run workflow` and again `Run workflow`
@@ -65,7 +66,8 @@ If you working on an issue, pls move the issue from the todo tab in the project 
 - this `action` creates all issues, you have to do
 - under the `Issues` tab you should see now the number 8 (the image is just an example)
   ![board1](assets/issues.png)
-- go back to your `project kanban board` and click the `+ Add cards` button and move every issue with drag & drop into the `To do` column
+- Click on every Issue and add your project to it
+- go back to your `project` and click the `+ Add cards` in the ToDo column
   ![board1](assets/issues2.png)
   ![board1](assets/issues3.png)
   ![board1](assets/issues4.png)
