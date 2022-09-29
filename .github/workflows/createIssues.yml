@@ -119,7 +119,7 @@ jobs:
 
             - [ ] move this issue in the board from `ToDo` tab into `In Progress` tab
             - [ ] create a new branch locally
-            - [ ] fetch the `rickandmorty` API
+            - [ ] fetch the `rickandmorty` API (only fetch the first 20 characters)
             ```
             https://rickandmortyapi.com/api/character
             ```
@@ -148,8 +148,8 @@ jobs:
             - [ ] move this issue in the board from `ToDo` tab into `In Progress` tab
             - [ ] create a new branch locally
             - [ ] install react-router
-            - [ ] create character page
-            - [ ] create detailed character card with logic for show more component (check the API for more content)
+            - [ ] create character page (you will need to create dynamic routes. Check out [the react router useParams docs](https://reactrouter.com/en/main/hooks/use-params))
+            - [ ] create a detailed character card which shows more info like species, gender, status (check the API for more content)
             - [ ] create logic, when clicking the „show more“ button on the `start page`, the user is moved to the detailed page and the character is loaded with more details
             - [ ] commit everything
             - [ ] push everything to the remote repo on GitHub
@@ -205,7 +205,7 @@ jobs:
             - [ ] when clicked the favorite button the character should be removed from the array
             - [ ] the array should updated in the localStorage as well
             - [ ] every functionality of the detailed character card should work here as well
-            - [ ] add the link to to `favorite page` in the `NavBar` component
+            - [ ] add the link to `favorite page` in the `NavBar` component
             - [ ] commit everything
             - [ ] push everything to the remote repo on GitHub
             - [ ] create a `pull request`
@@ -231,7 +231,7 @@ jobs:
             - [ ] move this issue in the board from `ToDo` tab into `In Progress` tab
             - [ ] create a new branch locally
             - [ ] create a page where you can click a „get random character“ button
-            - [ ] The page should display a bit `question` mark, when no character is loaded
+            - [ ] The page should display a big `question` mark, when no character is loaded
             - [ ] when clicked, a random character is loaded from the api and rendered (the card from the dashboard)
             - [ ] when a random character was loaded, the question mark is removed
             - [ ] when clicking the `get random character` button again, another character is loaded
